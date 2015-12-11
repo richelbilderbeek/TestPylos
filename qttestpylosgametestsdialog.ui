@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>652</width>
+    <width>667</width>
     <height>598</height>
    </rect>
   </property>
@@ -20,7 +20,7 @@
    <string>Tests performed</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPylos.qrc">
+   <iconset resource="TestPylos.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
@@ -34,7 +34,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>619</width>
+        <width>630</width>
         <height>1063</height>
        </rect>
       </property>
@@ -45,7 +45,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="ToolTestPylos.qrc">:/images/ToolTestPylosMustRemove.png</pixmap>
+          <pixmap resource="TestPylos.qrc">:/images/TestPylosMustRemove.png</pixmap>
          </property>
         </widget>
        </item>
@@ -65,7 +65,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="ToolTestPylos.qrc">:/images/ToolTestPylosCanMove.png</pixmap>
+          <pixmap resource="TestPylos.qrc">:/images/TestPylosCanMove.png</pixmap>
          </property>
         </widget>
        </item>
@@ -85,7 +85,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="ToolTestPylos.qrc">:/images/ToolTestPylosDoubleRemoveTest.png</pixmap>
+          <pixmap resource="TestPylos.qrc">:/images/TestPylosDoubleRemoveTest.png</pixmap>
          </property>
         </widget>
        </item>
@@ -117,7 +117,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap resource="ToolTestPylos.qrc">:/images/ToolTestPylosMoveMustRemove.png</pixmap>
+          <pixmap resource="TestPylos.qrc">:/images/TestPylosMoveMustRemove.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -141,7 +141,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestPylos.qrc"/>
+  <include location="TestPylos.qrc"/>
  </resources>
  <connections/>
 </ui>

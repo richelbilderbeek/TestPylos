@@ -14,7 +14,7 @@
    <string>Random play</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPylos.qrc">
+   <iconset resource="TestPylos.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
@@ -96,7 +96,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestPylos.qrc"/>
+  <include location="TestPylos.qrc"/>
  </resources>
  <connections/>
 </ui>

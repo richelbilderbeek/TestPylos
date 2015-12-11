@@ -23,7 +23,6 @@ along with this program.If not, see <http://www.gnu.org/licenses/>.
 #include <cassert>
 #include <iostream>
 
-#include "richelbilderbeekprogram.h"
 #include "trace.h"
 #include "testtimer.h"
 
@@ -48,7 +47,7 @@ ribi::About ribi::TestPylosMenuDialog::GetAbout() const noexcept
     "Richel Bilderbeek",
     "TestPylos",
     "tool to test the Pylos board classes",
-    "the 29th of April 2012",
+    "December 11th of 2015",
     "2010-2015",
     "http://www.richelbilderbeek.nl/ToolTestPylos.htm",
     GetVersion(),
@@ -71,18 +70,9 @@ ribi::Help ribi::TestPylosMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::TestPylosMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramTestPylos
-  };
-  assert(p);
-  return p;
-}
-
 std::string ribi::TestPylosMenuDialog::GetVersion() const noexcept
 {
-  return "2.1";
+  return "3.0";
 }
 
 std::vector<std::string> ribi::TestPylosMenuDialog::GetVersionHistory() const noexcept
@@ -93,9 +83,10 @@ std::vector<std::string> ribi::TestPylosMenuDialog::GetVersionHistory() const no
     "2010-09-21: version 0.3: user can switch between basic and advanced play, user can now move marbles to a higher level",
     "2010-09-22: version 1.0: initial release version, allow PylosWidget resizing, allow visual random play, play many random virtual games at startup, keep track of move history",
     "2010-09-22: version 1.1: modified PylosWidget to not display selector when somewon has won, added extra test",
-    "2010-09-22: version 1.2: if a marble is selected for movement to a higher layer, the left mouse button must be pressed. When a marble is selected for movement, no marble will be placed by clicking the left mouse button"
+    "2010-09-22: version 1.2: if a marble is selected for movement to a higher layer, the left mouse button must be pressed. When a marble is selected for movement, no marble will be placed by clicking the left mouse button",
     "2012-04-29: version 2.0: major architectural change. Seperated PylosGame from PylosBoard",
-    "2013-11-05: version 2.1: conformized for ProjectRichelBilderbeekConsole"
+    "2013-11-05: version 2.1: conformized for ProjectRichelBilderbeekConsole",
+    "2015-12-11: version 2.1: conformized for ProjectRichelBilderbeekConsole",
   };
 }
 

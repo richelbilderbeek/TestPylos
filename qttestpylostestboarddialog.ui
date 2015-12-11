@@ -23,7 +23,7 @@
    <string>TestPylos</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../Games/GameAminoAcidFighter/GameAminoAcidFighter.qrc">
+   <iconset resource="TestPylos.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <property name="styleSheet">
@@ -317,7 +317,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="../../Games/GameAminoAcidFighter/GameAminoAcidFighter.qrc"/>
+  <include location="TestPylos.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>341</width>
-    <height>524</height>
+    <width>353</width>
+    <height>619</height>
    </rect>
   </property>
   <property name="font">
@@ -22,14 +22,17 @@
    <string>TestPylos</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolTestPylos.qrc">
+   <iconset resource="TestPylos.qrc">
     <normaloff>:/images/R.png</normaloff>:/images/R.png</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QLabel" name="label_title">
      <property name="text">
-      <string>TestPylos</string>
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="TestPylos.qrc">:/images/TestPylosMoveMustRemove.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -81,7 +84,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="ToolTestPylos.qrc"/>
+  <include location="TestPylos.qrc"/>
  </resources>
  <connections/>
 </ui>
